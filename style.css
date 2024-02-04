@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    /* width: 80%; */
+    /* margin: auto; */
+    background-position: center;
+    padding: 10px 10px;
+    overflow: hidden;
+    position: relative;
+
+}
+.hh ,.pp{
+    z-index: -1;
+}
+.first,.fifth{
+    width: 80%;
+    margin: auto;
+}
+.first .photo img{
+    width: 95%;
+}
+.top{
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+      padding: 0 30px;
+}
+
+.top ul li{
+display: inline-block;
+}
+.header{
+    background: url(images/module-2.jpg);
+    font-size: larger;
+    background-size: cover;
+   position: relative;
+   z-index: 10;
+}
+
+.over{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgb(0, 0, 0,0.4) ;
+}
+ button{
+min-width: 160px;
+padding: 15px 0;
+border-radius: 5px;
+border: 0;
+font-size: 20px;
+}
+
+.header .btn1{
+    margin-right: 10px;
+    background-color: white;
+}
+.header .btn1{
+    background-color: #6195ff;
+    color: white;
+}
+.button{
+    text-align: center;
+}
+.liststyle{
+    list-style: none;
+    text-decoration: none;
+}
+.textalign{
+    text-align: center;
+}
+.textalign ul li{
+    display: inline-block;
+}
+
+.icons ,.ph{
+    display: flex;
+    justify-content: space-between;
+}
+.icon21  {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.icon22 {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.list ul li{
+    display: inline-block;
+}
+.bbb1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.bbb2{
+     display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.images2 img{
+    width: 108%;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.forth{
+    width: 75%;
+    margin: auto;
+}
+.i{
+    width: 290px;
+}
+.six{
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+ .seven{ 
+    background-image: url(images/module-186.jpg);
+    background-size: cover;
+    /* position: relative; */
+    overflow: hidden;
+    text-align: center;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.eight{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
